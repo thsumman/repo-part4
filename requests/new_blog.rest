@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs 
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IndoaXRlaGF0aGFja2VyMTEiLCJpZCI6IjVhODkyMWI0NjBhZDQ0MGQzM2Q2NjE2MSIsImlhdCI6MTUxODkzNjcwMX0.Sf1AtU0DEARSxkhHmeJW5tY6M9VYozVKAfoqFwNm8DM
+
+{
+  "title": "testiTitle3",
+  "author": "minaAuthor3",
+  "url": "http://www.yle.fi",
+  "likes": 7
+}
